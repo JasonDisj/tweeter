@@ -18,5 +18,5 @@ This repository is the starter code for the project: Students will fork and clon
 - Node 5.10.x or above
 
 ## Screenshots
-!["Screenshot of tweet-original"](https://github.com/JasonDisj/tweeter/blob/master/docs/tweet-app.png?raw=true)
-!["Screenshot of tweet-original"]
+!["Screenshot of tweet-app"](https://github.com/JasonDisj/tweeter/blob/master/docs/tweet-app.png?raw=true)
+!["Screenshot of tweet-1024px"](https://github.com/JasonDisj/tweeter/blob/master/docs/tweeter-1024px.png?raw=true)
