@@ -18,6 +18,138 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #f4f1ec;
+  font-family: 'Bungee', cursive;
+}
+
+.error-message {
+  display: none;
+  text-align: center;
+  width: 100;
+  height: 40px;
+  border: 3px solid #c33;
+  background-color: #fee;
+  color: #c33;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  margin-bottom: 60px;
+}
+
+.error-info {
+  font-size: 32px;
+}
+
+.over {
+  color: #c33;
+}
+
+#tweets-container {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tweet {
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 20px;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tweet:hover {
+  box-shadow: 7px 7px rgba(0, 0, 0, 0.4);
+}
+
+.tweet .header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.tweet .profile-img {
+  display: flex;
+}
+
+.tweet .username {
+  padding-left: 15px;
+}
+
+.tweet .tag-name {
+  color: #4056A1;
+}
+
+.tweet .body {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.footer {
+  border-top: 4px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.footer .tweet-icon {
+  color: #4056A1;
+}
+
+.footer .tweet-icon .fa-flag:hover {
+  color: #fca000;
+}
+
+.footer .tweet-icon .fa-retweet:hover {
+  color: #fca000;
+}
+
+.footer .tweet-icon .fa-heart:hover {
+  color: #fca000;
+}
+
+@media screen and (min-width: 1024px) {
+  
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .media-query-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 200px;
+  }
+
+  .new-tweet {
+    padding-top: 0;
+  }
+
 }
 
 /*

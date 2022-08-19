@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 520px;
+  width: 100%;
+  padding-top: 120px;
+  background-color: #fca000;
+  background-image: url(http://www.transparenttextures.com/patterns/beige-paper.png);
+}
+
+@media screen and (min-width: 1024px) {
+
+  header {
+    height: 400px;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 75px;
+  }
+  
+}
